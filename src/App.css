@@ -1,3 +1,25 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px; }
+  .header .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px; }
+    .header .logo-container svg {
+      width: auto;
+      height: 100%; }
+  .header .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    .header .options .option {
+      padding: 10px 15px; }
+
 .collection-item {
   width: 22%;
   display: flex;
@@ -78,5 +100,9 @@
 body {
   font-family: 'Gotu', sans-serif;
   padding: 20px 60px; }
+
+a {
+  text-decoration: none;
+  color: black; }
 
 /*# sourceMappingURL=App.css.map */

@@ -1,3 +1,4 @@
+@import './components/header/header.styles';
 @import './components/collection-item/collection-item.styles';
 @import './components/collection-preview/collection-preview.styles';
 @import './components/directory/directory.styles';
@@ -8,4 +9,9 @@
 body{
   font-family: 'Gotu', sans-serif;
   padding: 20px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
