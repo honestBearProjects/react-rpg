@@ -6,7 +6,7 @@ import './_homepage.styles.scss';
 
 //functional component, don't need to store state or lifecycle methods
 const HomePage = () => (
-  <div classname='homepage'>
+  <div className='homepage'>
     <Directory />
   </div>
 )
